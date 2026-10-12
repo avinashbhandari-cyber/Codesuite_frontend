@@ -102,8 +102,7 @@ class Signup extends Component {
                             fontFamily: 'Poppins, sans-serif',
                             color: '#ffffff',
                             letterSpacing: '0.5px',
-                            outline: 'none',
-                            border: 'none'
+                            outline: 'none'
                         }}>
                             <label style={{
                                 fontSize: '22px',
