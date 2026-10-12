@@ -1,0 +1,230 @@
+.popup,
+.popup1,
+.popup2 {
+    display: none;
+    position: absolute;
+    width: 80%;
+    height: auto;
+    z-index: 1;
+    margin: 0% 11%;
+    background: whitesmoke;
+    box-shadow: 7px 45px 13em 14em grey;
+    transition: all 3s;
+}
+
+.details {
+    width: 98%;
+    height: 32em;
+    overflow-y: scroll;
+    text-align: left;
+    margin: auto;
+    font-variant: discretionary-ligatures;
+    font-family: system-ui;
+    color: currentColor;
+}
+
+.cancelbtn :hover {
+    color: darkgreen;
+}
+
+.Downbtn {
+    margin: 44% 88%;
+    display: inline-block;
+    position: absolute;
+    z-index: 2;
+}
+
+.downloadbtn {
+    background-color: #0a980a;
+    color: white;
+    box-shadow: 5px 5px 7px grey;
+}
+
+.roadmp {
+    border: 2px solid black;
+    width: 85%;
+    height: auto;
+    margin: auto;
+
+}
+
+.firsthead {
+    width: 86%;
+    margin: auto;
+    margin-left: 9%;
+    display: flex;
+    align-items: center;
+}
+
+#rd_btn {
+    border: 2px solid dimgray;
+    margin-left: 60.5%;
+    width: 12%;
+    height: 58px;
+    transition: all 0.5s;
+    font-size: larger;
+    font-family: inherit;
+    background-color:lightgrey;
+    color: darkslategrey;
+}
+
+#rd_btn:hover{
+    background-color:aliceblue;
+    color: darkslategrey;
+}
+
+.card-container{
+    width: 90%;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    margin:auto;
+    justify-content: space-around;
+    text-align: justify;
+}
+
+.card:hover{
+    box-shadow: 0px 2px 8px 6px rgb(29 104 67);
+}
+
+.card{
+    border:2px solid rgb(71, 69, 66);
+    width: 25%;
+    height: 350px;
+    margin: 23px;
+    background-color: #13171a;
+    transition: all 0.3s ease-in-out;
+
+    border-radius: 5px;
+    padding: 2px;
+}
+
+
+.card-btn{
+    border:2px solid #13171a;
+    transition : all 0.1s ease-in;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.card-btn:hover{
+    background-color:rgb(29, 104, 67);
+}
+
+/* ---- Practice question css ------ */
+
+.questions {
+    border: 2px solid rgb(29, 104, 67);
+    width: 80vw;
+    margin: auto;
+    margin-top: 10px;
+    height: fit-content;
+    color:white;
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 0px 5px 17px -1px rgb(29, 104, 67);
+    font-family: inherit;
+
+    animation: Ques 0.9s ease 0s 1 normal none;
+
+}
+
+@keyframes Ques {
+  
+    100% {
+      opacity: 1;
+    }
+  
+    0%,
+    50%,
+    25% {
+      opacity: 0;
+    }
+  }
+
+.writequestion{
+    /* border: 2px solid white; */
+    width: 60%;
+    height: fit-content;
+    color:white;
+}
+
+.editdetails{
+    /* border: 2px solid white; */
+    width: fit-content;
+    height: fit-content;
+    padding: 20px;
+}
+
+.enterquestion{
+    /* border:2px solid white; */
+    width: 60%;
+    padding-top: 18px
+}
+
+.entercode{
+    /* border:2px solid white; */
+    width: auto;
+    padding-top: 10px
+}
+
+input{
+    width: 20em;
+    height: 30px;
+}
+
+/* -----------  Practice ques css -----------  */
+
+.practiceques{
+    border: 2px solid white;
+    width: 80vw;
+    margin: auto;
+    height: 400px;
+    color: white;
+    font-family: inherit;
+    overflow-y: scroll;
+}
+
+.Questions{
+    border: 2px solid white;
+    padding: 20px;
+    width: 87%;
+    margin: 2px;
+    display:flex; 
+    flex-direction:row;
+    justify-content: space-between;
+}   
+
+.splitquestionleft{
+
+    border: 2px solid rgb(29, 104, 67);
+    box-shadow: 0px 5px 17px -1px rgb(29, 104, 67);
+    width: 49%;
+    margin: auto;
+    height: 600px;
+    color: white;
+    font-family: inherit;
+    overflow-y: scroll;
+    float:left;
+    margin-top: 10px;
+    padding-left: 20px;
+    font-size: large;
+
+}
+
+.splitquestionright {
+
+    border: 2px solid rgb(29, 104, 67);
+    width: 49%;
+    height: 600px;
+    float: right;
+    margin: auto;
+    margin-top: 10px;
+    color:white;
+    display: flex;
+    justify-content: space-evenly;
+    overflow-y: scroll;
+    box-shadow: 0px 5px 17px -1px rgb(29, 104, 67);
+
+}

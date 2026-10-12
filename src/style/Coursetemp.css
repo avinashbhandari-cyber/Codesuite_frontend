@@ -1,0 +1,128 @@
+
+.tabs{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 8vh;
+    color: white;
+    background-color: darkslategrey;
+    font-size: 1.8em;
+}
+
+.tablinks{ 
+    font-family: monospace;
+    font-size: smaller;
+    color: whitesmoke;
+    flex: 1;
+}
+
+.course_contain{
+    margin-top:0.5%;
+    width: 100%;
+    height: 100vh;
+    padding : 0.2em;
+    color: darkslategray;
+    font-family: 'Cabin', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.sidebar {
+    width: 18%;
+    height: 100vh;
+    overflow-y: scroll;
+    background-color: rgb(19 23 26);
+}
+
+#head :hover {
+    background-color: rgb(223 218 223 0);
+}
+
+a .links{
+    cursor: pointer;
+    height: 29px;
+    margin: 1%;
+    /* color: darkslategray; */
+    transition: all 0.2s;
+}   
+
+.alllinks :hover{
+    background-color: rgb(223 218 223 / 0.5);
+}
+
+
+.course{
+    position: absolute;
+    width: 78%;
+    height: 45em;
+    text-align: justify;
+    overflow-y: scroll;
+    background-color:#1d6843;
+    background-color: #2f4f4f;
+}
+
+.pages{
+    width: 76%;
+    height:  auto;
+    margin: 1% 3%;
+}
+
+.title{
+    font-family: monospace;
+    font-variant: petite-caps;
+    font-size: revert;
+}
+
+/* -- Course content css --- */
+
+.content{
+    height: auto;
+    width: 100%;
+    margin-top: 1%;
+}
+
+/* a {
+color:black;
+} */
+
+.step{
+margin: 2%;
+box-shadow: 0em 0em 0.8em #c0bbbb;
+height: auto;
+padding: 1%;
+color: whitesmoke;
+font-variant: contextual;
+font-variant-caps: revert;
+background-color: #3e665f;
+}
+
+.stepboxes{
+margin-top: 1%;
+background-color: white;
+width: 99%;
+height: auto;
+color: black;
+padding: 0.6%;
+text-align: justify;
+box-shadow: 0px 0px 9px 6px darkslategrey;
+}
+
+.stepboxes2{
+
+display: inline-block;
+border: 2px solid white;
+width: 32.8%;
+margin: 2% 0%;
+padding: 0.2%;
+height: inherit;
+background-color: #315251;
+color: black;
+box-shadow: 0px 0px 9px 6px darkslategrey;
+}
+
+.steplinks :hover{
+color: black;
+background-color: #c0bbbb;
+}
+
